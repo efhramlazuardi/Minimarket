@@ -1,5 +1,9 @@
+// PaymentMethod.java
 package com.minimarket.web.model.transaction;
 
-public class PaymentMethod {
-
+public enum PaymentMethod {
+    CASH,
+    DEBIT_CARD,
+    CREDIT_CARD
 }
+

@@ -1,5 +1,7 @@
+// UserRole.java
 package com.minimarket.web.model.user;
 
-public class User {
-
+public enum user {
+    ADMIN,
+    CUSTOMER
 }
