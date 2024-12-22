@@ -1,20 +1,5 @@
-// BaseEntity.java
 package com.minimarket.web.model.base;
 
-import jakarta.persistence.*;
-import java.io.Serializable;
+public abstract class BaseEntity {
 
-@MappedSuperclass
-public abstract class BaseEntity implements Serializable {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
 }
